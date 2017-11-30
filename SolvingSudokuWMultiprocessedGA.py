@@ -52,13 +52,9 @@ def birth(puzzle):
     return birth
 
 
-
-
             
 if __name__ =='__main__':
 
-        q = Queue()
-        bests = Queue()
         population = birth(su.puzzle)
         for i in range(4):
                 p = Process(target=generation, args = (population,))
