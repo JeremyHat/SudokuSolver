@@ -1,11 +1,5 @@
 import random, copy, time
 
-#Constants FOR YOU TO DEFINE FROM YOUR OWN CODE
-Initial_population = None
-Litter_Size = None
-Mortality_Rate = None
-Mutation_Rate = None
-
 #Variables
 GenerationCount = 0
 solution = []
