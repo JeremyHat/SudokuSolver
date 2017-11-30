@@ -1,4 +1,3 @@
-#!/usr/bin/python2.7
 import sudoku as su
 import random, sys
 from multiprocessing import Process, Queue, Manager
